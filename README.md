@@ -1,30 +1,71 @@
-GoBike Data Analysis
+# GoBike Data Analysis Project
 
-Project Details
+## Project Details
 
-This project analyzes the GoBike trip dataset to explore trends, user behavior, and usage patterns within the Bay Area. The project is divided into two phases: Exploratory Analysis and Explanatory Analysis. The exploratory phase involves understanding the dataset and extracting preliminary insights, while the explanatory phase presents findings that tell a story and answer specific questions through polished visualizations.
+This project was completed as part of the GoBike Data Analysis initiative, focusing on understanding trends, user behaviors, and usage patterns within the Bay Area bike-sharing service. The project was conducted in two parts: an Exploratory Analysis to understand the dataset structure and discover preliminary insights, and an Explanatory Analysis to present key findings that tell a story using polished visualizations.
 
-The key objective is to identify metrics that define user habits and investigate differences between user types, such as "Subscriber" and "Customer," while highlighting significant insights through visual storytelling.
+The primary objective was to identify key metrics that define user habits and investigate differences between user types, such as "Subscriber" and "Customer." The findings are presented in a clear, visual format to communicate insights effectively.
 
-Dataset
+## Dataset
 
-The GoBike dataset contains information about individual bike trips, including trip duration, start and end times, station locations, and user demographics (such as age, gender, and user type). The dataset provides an opportunity to explore bike-sharing habits in the Bay Area and uncover insights into user behavior.
+The dataset used in this project consists of detailed information about individual bike trips, including:
 
-Summary of Findings
+- **Trip Details**: Start and end times, station locations, and ride duration.
 
-The exploratory analysis reveals that most users are subscribers, indicating a preference for the subscription model, especially among frequent users. Customers, on the other hand, tend to have longer rides, potentially for recreational purposes.
+- **User Attributes**: Age, gender, and user type (Subscriber or Customer).
 
-The explanatory analysis addresses key questions about user behavior, such as how usage varies by day of the week, how ride duration differs across age groups and user types, and which user groups are most active. Key visualizations demonstrate that subscribers have consistent activity throughout the week, likely for commuting, while customers have increased activity during weekends.
+This dataset offers an opportunity to explore bike-sharing habits in the Bay Area and understand user preferences.
 
-Key Insights for Presentation
+## Summary of Findings
 
-The visualizations from the explanatory analysis include:
+After analyzing the data, several key insights were observed:
 
-Ride Distribution by User Type and Gender: A bar chart showing that subscribers make up a significant majority of users for both male and female riders, suggesting that the service is primarily used by regular commuters.
+- Subscribers are more consistent in their usage throughout the week, indicating that they primarily use the service for daily commuting.
 
-Average Trip Duration by Age Group and User Type: A facet plot illustrating that customers aged 20-25 tend to have the longest ride durations, around 25 minutes on average, compared to subscribers who have consistent trip durations across all age groups.
+- Customers tend to have higher usage during weekends, with longer ride durations compared to subscribers, suggesting more recreational use.
 
-Ride Activity by Day of the Week: A bar chart demonstrating higher usage during weekdays for subscribers, indicating commuting usage, while customers have a stronger presence during weekends, suggesting leisure activity.
+- Younger users, particularly those aged 20-25, tend to have the longest trip durations, especially among customers.
 
-The visualizations were chosen to effectively convey these patterns, with clear axis labels, annotations, and logical sequencing to support the insights derived from the dataset.
+These insights were supported by visualizations such as bar charts, facet plots, and percentage comparisons to highlight the differences in user behaviors across different demographics and times of the week.
+
+## Key Insights for Presentation
+
+The presentation focused on key trends in user behavior, supported by visualizations:
+
+- **Ride Distribution by User Type and Gender**: A bar chart showing that subscribers make up a significant portion of users for both male and female riders, highlighting regular commuting habits.
+- **Average Trip Duration by Age Group and User Type**: A facet plot that demonstrates that younger customers (aged 20-25) have the longest ride durations, averaging 25 minutes, whereas subscribers show more consistency in trip length.
+- **Ride Activity by Day of the Week**: A bar chart demonstrating higher weekday usage for subscribers, indicating commuting patterns, while customers have increased weekend activity for leisure.
+
+The visualizations were designed with clear axis labels, titles, and annotations to ensure the insights were accessible and engaging for the audience.
+
+## Files
+
+- GoBike_Exploratory_Analysis.ipynb: Jupyter Notebook containing the initial exploratory data analysis, including summary statistics and visual exploration of the dataset.
+- GoBike_Explanatory_Analysis.ipynb: Jupyter Notebook focused on presenting key insights through polished visualizations and answering specific questions about user behavior.
+- GoBike_Analysis_Presentation.pdf: A presentation summarizing the key findings and insights from the data analysis.
+
+## How to Use
+
+To explore this project, clone the repository and open the Jupyter Notebooks (GoBike_Exploratory_Analysis.ipynb and GoBike_Explanatory_Analysis.ipynb) to see the complete analysis process. The findings can be reviewed in the presentation file (GoBike_Analysis_Presentation.pdf).
+
+## Requirements
+
+The following Python libraries were used in this project:
+
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+
+To install the required libraries, run:
+
+```sh
+pip install -r requirements.txt
+```
+
+# Acknowledgements
+
+- **GoBike**: For providing the data used in this project.
+
+- **Udacity**: For providing the guidance and structure to complete this analysis.
 
