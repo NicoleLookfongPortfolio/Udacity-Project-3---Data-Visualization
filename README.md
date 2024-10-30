@@ -40,9 +40,9 @@ The visualizations were designed with clear axis labels, titles, and annotations
 
 ## Files
 
-- GoBike_Exploratory_Analysis.ipynb: Jupyter Notebook containing the initial exploratory data analysis, including summary statistics and visual exploration of the dataset.
-- GoBike_Explanatory_Analysis.ipynb: Jupyter Notebook focused on presenting key insights through polished visualizations and answering specific questions about user behavior.
-- GoBike_Analysis_Presentation.pdf: A presentation summarizing the key findings and insights from the data analysis.
+- `GoBike_Exploratory_Analysis.ipynb`: Jupyter Notebook containing the initial exploratory data analysis, including summary statistics and visual exploration of the dataset.
+- `GoBike_Explanatory_Analysis.ipynb`: Jupyter Notebook focused on presenting key insights through polished visualizations and answering specific questions about user behavior.
+- `GoBike_Analysis_Presentation.pdf`: A presentation summarizing the key findings and insights from the data analysis.
 
 ## How to Use
 
